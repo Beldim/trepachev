@@ -26,4 +26,17 @@ let c = a - b;
 let d = 7;
 let result = c + d;
 console.log(result); */
-
+/* Работа со строками */
+/* 1 */
+/* let str = "Привет, Мир!";
+console.log(str); */
+/* 2 */
+/* let str1 = "Привет, ";
+let str2 = "Мир!";
+console.log(str1+str2); */
+/* 3 */
+/* let name = "Дмитрий";
+console.log(`Привет, ${name}!`); */
+/* 4 */
+/* let age = 30;
+console.log(`Мне ${age} лет!`); */
