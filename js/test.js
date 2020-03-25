@@ -27,24 +27,34 @@ let d = 7;
 let result = c + d;
 console.log(result); */
 /* Работа со строками */
-/* 1 */
+/* 6 */
 /* let str = "Привет, Мир!";
 console.log(str); */
-/* 2 */
+/* 7 */
 /* let str1 = "Привет, ";
 let str2 = "Мир!";
 console.log(str1+str2); */
-/* 3 */
+/* 8 */
 /* let name = "Дмитрий";
 console.log(`Привет, ${name}!`); */
-/* 4 */
+/* 9 */
 /* let age = 30;
 console.log(`Мне ${age} лет!`); */
 /* Функция prompt */
-/* 1 */
+/* 10 */
 /* let a = prompt('Ваше имя?', 'John');
 console.log(`Ваше имя, ${a}`); */
-/* 2 */
+/* 11 */
 /* let a = prompt('Введите число для возведения в квадрат', '');
 let b = a * a;
 console.log(b); */
+/* Обращение к символам строки */
+/* 12 */
+/* let str = 'abcde';
+console.log(str[0]);
+console.log(str[2]);
+console.log(str[4]); */
+/* 13 */
+/* let num = '12345';
+console.log(num[0]*num[1]*num[2]*num[3]*num[4]); */
+
