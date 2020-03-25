@@ -75,3 +75,17 @@ console.log(`${hour}:${minutes}:${second}`); */
 /* let a = 25;
 let b = a * a;
 console.log(b); */
+/* Работа с присваиванием и декрементами */
+/* 17 */
+/* let num = 47;
+num += 7;
+num -= 18;
+num *= 10;
+num /= 15;
+console.log(num); */
+/* 18 */
+let num = 10;
+num++;
+num++;
+num--;
+console.log(num);
