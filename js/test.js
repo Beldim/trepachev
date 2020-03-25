@@ -84,8 +84,24 @@ num *= 10;
 num /= 15;
 console.log(num); */
 /* 18 */
-let num = 10;
+/* let num = 10;
 num++;
 num++;
 num--;
-console.log(num);
+console.log(num); */
+/* Работа с массивами */
+/* 1 */
+/* let arr = ['a', 'b', 'c'];
+console.log(arr); */
+/* 2 */
+/* let arr = ['a', 'b', 'c'];
+console.log(arr[0]);
+console.log(arr[1]);
+console.log(arr[2]); */
+/* 3 */
+/* let arr = ['a', 'b', 'c', 'd'];
+console.log(arr[0] + arr[1], arr[2] + arr[3]); */
+/* 4 */
+/* let arr = [2, 5, 3, 9];
+let result = arr[0] * arr[1] + arr[2] * arr[3];
+console.log(result); */
