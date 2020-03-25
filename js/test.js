@@ -71,4 +71,7 @@ console.log(`В месяце ${month} секунд`); */
 let minutes = '40';
 let hour = '14';
 console.log(`${hour}:${minutes}:${second}`); */
-
+/* 16 */
+/* let a = 25;
+let b = a * a;
+console.log(b); */
