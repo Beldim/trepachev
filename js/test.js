@@ -40,3 +40,11 @@ console.log(`Привет, ${name}!`); */
 /* 4 */
 /* let age = 30;
 console.log(`Мне ${age} лет!`); */
+/* Функция prompt */
+/* 1 */
+/* let a = prompt('Ваше имя?', 'John');
+console.log(`Ваше имя, ${a}`); */
+/* 2 */
+/* let a = prompt('Введите число для возведения в квадрат', '');
+let b = a * a;
+console.log(b); */
