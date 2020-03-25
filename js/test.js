@@ -57,4 +57,18 @@ console.log(str[4]); */
 /* 13 */
 /* let num = '12345';
 console.log(num[0]*num[1]*num[2]*num[3]*num[4]); */
+/* Практика */
+/* 14 */
+/* let minutes = 60;
+let hour = minutes * 60;
+let day = hour * 24;
+let month = day * 31;
+console.log(`В часе ${hour} секунд`);
+console.log(`В сутках ${day} секунд`);
+console.log(`В месяце ${month} секунд`); */
+/* 15 */
+/* let second = '05';
+let minutes = '40';
+let hour = '14';
+console.log(`${hour}:${minutes}:${second}`); */
 
