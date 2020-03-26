@@ -127,3 +127,21 @@ console.log(obj['Коля']); */
 /* 8 */
 /* let day = week['4'];
 console.log(day);  */
+/* Многомерные массивы */
+/* 9 */
+/* let arr = [ [1, 2, 3], [4, 5, 6], [7,8,9] ];
+console.log(arr[1][0]); */
+/* 10 */
+/* let obj = {js:['jQuery', 'Angular'], php: 'hello', css: 'world'};
+console.log(obj.js[0]); */
+/* 11 */
+/* let arr = {
+    ru:['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'],
+    en:['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
+};
+console.log(arr.ru[0]);
+console.log(arr.en[2]); */
+/* 12 */
+/* let lang = 'ru';
+let day = 4;
+console.log(arr[lang][day]); */
