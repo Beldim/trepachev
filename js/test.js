@@ -105,3 +105,25 @@ console.log(arr[0] + arr[1], arr[2] + arr[3]); */
 /* let arr = [2, 5, 3, 9];
 let result = arr[0] * arr[1] + arr[2] * arr[3];
 console.log(result); */
+/* Объекты (ассоциативные массивы) */
+/* 5 */
+/* let obj = {a: 1, b: 2, c: 3};
+console.log(obj['c']);
+console.log(obj.c); */
+/* 6 */
+/* let obj = {Коля: '1000', Вася: '500', Петя: '200'};
+console.log(obj['Петя']);
+console.log(obj['Коля']); */
+/* 7 */
+/* let week = {
+    1: 'Понедельник', 
+    2: 'Вторник',
+    3: 'Среда',
+    4: 'Четверг',
+    5: 'Пятница',
+    6: 'Суббота',
+    7: 'Воскресенье',
+}; */
+/* 8 */
+/* let day = week['4'];
+console.log(day);  */
