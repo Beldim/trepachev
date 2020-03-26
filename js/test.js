@@ -145,3 +145,58 @@ console.log(arr.en[2]); */
 /* let lang = 'ru';
 let day = 4;
 console.log(arr[lang][day]); */
+/* Работа с if-else */
+/* 1 */
+/* let a = 0;
+if (a == 0) {
+    console.log('Верно!')
+}; */
+/* 2 */
+/* let a = 1;
+if (a > 0) {
+    console.log('Верно!')
+} else {
+    console.log('Неверно!')
+} */
+/* 3 */
+/* let a = -3;
+if (a < 0) {
+    console.log('Верно!')
+} else {
+    console.log('Неверно!')
+} */
+/* 4 */
+/* let a = 0;
+if (a >= 0) {
+    console.log('Верно!')
+} else {
+    console.log('Неверно!')
+} */
+/* 5 */
+/* let a = 0;
+if (a <= 0) {
+    console.log('Верно!')
+} else {
+    console.log('Неверно!')
+} */
+/* 6 */
+/* let a = 1;
+if (a != 0) {
+    console.log('Верно!')
+} else {
+    console.log('Неверно!')
+}  */
+/* 7 */
+/* let a = 'test';
+if (a == 'test') {
+    console.log('Верно!')
+} else {
+    console.log('Неверно!')
+} */
+/* 8 */
+/* let a = 1;
+if (a === 1) {
+    console.log('Верно!')
+} else {
+    console.log('Неверно!')
+} */
