@@ -200,3 +200,18 @@ if (a === 1) {
 } else {
     console.log('Неверно!')
 } */
+/* Работа с логическими переменными */
+/* 9 */
+/* let test = true;
+if (test == false) {
+    console.log('Верно!')
+} else {
+    console.log('Неверно!')
+}  */
+/* 10 */
+let test = false;
+if (test !== true) {
+    console.log('Верно!')
+} else {
+    console.log('Неверно!')
+}
