@@ -247,3 +247,76 @@ if ((a > 2 && a < 11) || (b >= 6 && b < 14)) {
 } else {
     console.log('Неверно')
 } */
+/* На switch-case */
+/* 15 */
+/* let num = 4;
+let result;
+switch (num) {
+    case 1:
+    result = 'Зима';
+    break;
+    case 2:
+    result = 'Весна';
+    break;
+    case 3:
+    result = 'Лето';
+    break;
+    case 4:
+    result = 'Осень';
+    break;
+}
+console.log(result); */
+/* 16 */
+/* let day = 17;
+let dek
+if (day < 8) {
+    dek = 'Первая декада!';
+} 
+if (day >= 8 && day < 15) {
+    dek = 'Вторая декада!';
+}
+if (day >= 15 && day < 21) {
+    dek = 'Третья декада!';
+}
+if (day >= 21 && day < 31) {
+    dek = 'Четвертая декада';
+}
+console.log(dek); */
+/* 17 */
+/* let month = 3;
+if ((month > 0 && month <= 2) || month == 12) {
+    console.log('Зима');
+}
+if (month > 2 && month <= 5) {
+    console.log('Весна');
+}
+if (month > 5 && month <= 8) {
+    console.log('Лето');
+}
+if (month > 8 && month <= 11) {
+    console.log('Осень');
+} */
+/* 18 */
+/* let str = 'abcde';
+if (str[0]=='a') {
+    console.log('Да');
+} else {
+    console.log('Нет');
+} */
+/* 19 */
+/* let str = '12345';
+if (str[0] == 1 || str[0] == 2 || str[0] == 3 ) {
+    console.log('Да');     
+} else {
+console.log('Нет');
+} */
+/* 20 */
+/* let str = '356';
+console.log((+str[0])+(+str[1])+(+str[2])); */
+/* 21 */
+/* let str = '123420';
+if (((+str[0]) + (+str[1]) + (+str[2])) == ((+str[3]) + (+str[4]) + (+str[5]))) {
+    console.log('Да');
+} else {
+    console.log('Нет');
+} */
