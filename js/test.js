@@ -209,9 +209,41 @@ if (test == false) {
     console.log('Неверно!')
 }  */
 /* 10 */
-let test = false;
+/* let test = false;
 if (test !== true) {
     console.log('Верно!')
 } else {
     console.log('Неверно!')
+} */
+/* Работа с && (и) и || (или) */
+/* 11 */
+/* let a = 2;
+if (a > 0 && a < 5) {
+    console.log('Верно');
+} else {
+    console.log('Неверно');
+} */
+/* 12 */
+/* let a = 0;
+if (a == 0 || a == 2) {
+    a += 7;
+} else {
+    a /= 10;
 }
+console.log(a); */
+/* 13 */
+/* let a = 3;
+let b = 5;
+if (a <= 1 && b >= 3) {
+    console.log(a + b)
+} else {
+    console.log(a - b)
+} */
+/* 14 */
+/* let a = 1;
+let b = 5;
+if ((a > 2 && a < 11) || (b >= 6 && b < 14)) {
+    console.log('Верно')
+} else {
+    console.log('Неверно')
+} */
