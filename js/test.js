@@ -351,4 +351,16 @@ for (i = 1; i <= 100; i++){
     a += i;
     document.write(a+'<br>')
 } */
-
+/* Работа с for для массивов */
+/* 5 */
+/* let arr = [1, 2, 3, 4, 5];
+for (i = 0; i < arr.length; i++){
+    console.log(arr[i]);
+} */
+/* 6 */
+/* let result = 0
+let arr = [1, 2, 3, 4, 5];
+for (i = 0; i < arr.length; i++){
+    result += arr[i];
+    console.log(result);
+} */
