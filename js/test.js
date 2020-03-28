@@ -320,3 +320,35 @@ if (((+str[0]) + (+str[1]) + (+str[2])) == ((+str[3]) + (+str[4]) + (+str[5]))) 
 } else {
     console.log('Нет');
 } */
+/* Циклы while и for */
+/* 1 */
+/* let i = 1;
+while (i <= 100) {
+    document.write(i + '<br>');
+    i++;
+};
+for (a = 1; a <= 100; a++) {
+    document.write(a + '<br>');
+} */
+/* 2 */
+/* let i = 11
+while (i <= 33) {
+    document.write(i + '<br>');
+    i++;
+};
+for (a = 11; a <= 33; a++) {
+    document.write(a + '<br>');
+} */
+/* 3 */
+/* for (i = 1; i <= 100; i++) {
+    if (i % 2 == 0) {
+        document.write(i + '<br>');
+    }
+} */
+/* 4 */
+/* let a = 0;
+for (i = 1; i <= 100; i++){
+    a += i;
+    document.write(a+'<br>')
+} */
+
