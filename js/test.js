@@ -364,3 +364,80 @@ for (i = 0; i < arr.length; i++){
     result += arr[i];
     console.log(result);
 } */
+/* Работа с for-in */
+/* 7 */
+/* let obj = {green: 'зеленый', red: 'красный', blue: 'голубой'};
+for (let key in obj){
+    console.log(key + ':' + obj[key]);
+} */
+/* 8 */
+/* let obj = {
+    Коля:200,
+    Вася:300,
+    Петя:400
+};
+for (let key in obj){
+    console.log(key + ' зарплата ' + obj[key] + ' долларов!');
+} */
+/* 9 */
+/* let arr = [2, 5, 9, 15, 0, 4];
+for (i = 0; i < arr.length; i++){
+    if (arr[i] > 3 && arr[i] < 10){
+        document.write(arr[i] + '<br>');
+    }
+} */
+/* 10 */
+/* let sum = 0;
+let arr = [-2, 5, 9, -15, 0, 4];
+for (i = 0; i < arr.length; i++){
+    if (arr[i] >= 0){
+        sum += arr[i];
+        }
+}
+document.write(sum + '<br>'); */
+/* 11 */
+/* let arr = [1, 2, 5, 9, 4, 13, 4, 10];
+for (i = 0; i < arr.length; i++) {
+    if (arr[i] == 4) {
+        console.log('Есть!');
+        break;
+    }
+} */
+/* 12 */
+/* let arr = ['10', '20', '30', '50', '235', '3000'];
+for (i = 0; i < arr.length; i++){
+    if (arr[i][0] == 1 || arr[i][0] == 2 || arr[i][0] == 5){
+    console.log(arr[i]);
+    }
+} */
+/* 13 */
+/* let arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+for (i = 0; i < arr.length; i++){
+    document.write('-' + arr[i]);
+} */
+/* 14 */
+/* let arr = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+for (i=0; i<arr.length; i++){
+    if (i < 5 ){
+document.write(arr[i] + '<br>');
+    } else {
+        document.write('<i><b style="color: red; ">' + arr[i] + '<br>' + '</b></i>');
+    } 
+} */
+/* 15 */
+/* let arr = ['Понедельник', 'Вторник', 'Среда', 'Четверг', 'Пятница', 'Суббота', 'Воскресенье'];
+for (i=0; i<arr.length; i++){
+    let day = arr[5];
+    if (arr[i] == day){
+        document.write('<i>' + arr[i] + '<br>' + '</i>');
+    } else {
+        document.write(arr[i]+ '<br>');
+    }
+} */
+/* 16 */
+/* let num = 0;
+for (n = 1000; n > 50; n/=2){
+    num++;
+    document.write(n + '<br>');
+}
+document.write('Количество интераций ' + num + '<br>'); */
