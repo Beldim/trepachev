@@ -441,3 +441,61 @@ for (n = 1000; n > 50; n/=2){
     document.write(n + '<br>');
 }
 document.write('Количество интераций ' + num + '<br>'); */
+/* Работа со степенью и корнем */
+/* 3 */
+/* let st = Math.pow(2, 10);
+console.log(st); */
+/* 4 */
+/* console.log(Math.sqrt(245)); */
+/* 5 */
+/* let a = 0;
+let arr = [4, 2, 5, 19, 13, 0, 10];
+for (i=0; i<arr.length; i++){
+   a += Math.pow(arr[i], 3);
+}
+console.log(a); */
+/* Работа с функциями округления */
+/* 6 */
+/* console.log(Math.sqrt(379));
+console.log(Math.round(Math.sqrt(379)));
+console.log((Math.sqrt(379)).toFixed(1));
+console.log((Math.sqrt(379)).toFixed(2)); */
+/* 7 */
+/* let obj={};
+obj['floor'] = Math.floor(Math.sqrt(587));
+obj['ceil'] = Math.ceil(Math.sqrt(587));
+console.log(obj); */
+/* 8 */
+/* console.log(Math.min(4, -2, 5, 19, -130, 0, 10));
+console.log(Math.max(4, -2, 5, 19, -130, 0, 10)); */
+/* 9 */
+/* console.log(Math.round(Math.random()*100)); */
+/* 10 */
+/* let arr=[];
+for (i=0; i<10; i++){
+    arr[i]=Math.round(Math.random()*100);
+}
+console.log(arr); */
+/* 11 */
+/* let a=3;
+let b=5;
+console.log(Math.abs(a-b)); */
+/* 12 */
+/* let a=6;
+let b=1;
+let c=a-b;
+console.log(Math.abs(c)); */
+/* 13 */
+/* let b=0;
+let arr=[12, 15, 20, 25, 59, 79];
+for (i=0; i<arr.length; i++){
+    b+=arr[i];
+}
+console.log(b/arr.length); */
+/* 14 */
+/* let fact = 6;
+let b = 1;
+for (i=1; i<=fact; i++){
+b *= i;
+}
+console.log(b); */
