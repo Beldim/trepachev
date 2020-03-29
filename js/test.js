@@ -499,3 +499,77 @@ for (i=1; i<=fact; i++){
 b *= i;
 }
 console.log(b); */
+/* Задачи на функции работы со строками в JavaScript */
+/* 1 */
+/* let str = 'js';
+console.log(str.toUpperCase()); */
+/* 2 */
+/* let str = "JS";
+console.log(str.toLowerCase()); */
+/* 3 */
+/* let str = 'я учу javascript!';
+console.log(str.length); */
+/* 4 */
+/* let str = 'я учу javascript!';
+console.log(str.substr(2, 15));
+console.log(str.substring(2, 17));
+console.log(str.slice(2, 17)); */
+/* 5 */
+/* let str = 'я учу javascript!';
+console.log(str.slice(2, 6)); */
+/* 6 */
+/* let str = 'я учу javascript!';
+let n =10;
+if (str.length > n) {
+    result = str.slice(0, n)+'...';
+} else {
+    result = str;
+}
+console.log(result); */
+/* 7 */
+/* let str = 'Я-учу-javascript!';
+console.log(str.replace(/-/g, '!')); */
+/* 8 */
+/* let str = 'я учу javascript!';
+arr = str.split(' ');
+a = arr[0];
+b = arr[1];
+c = arr[2];
+console.log(a);
+console.log(b);
+console.log(c); */
+/* 9 */
+/* let str = 'я учу javascript!';
+arr = str.split('');
+for (i=0; i<arr.length; i++){
+    console.log(arr[i]);
+} */
+/* 10 */
+/* let date = '2025-12-31';
+arr = date.split('-');
+date = arr[0]+'.'+arr[1]+'.'+arr[2];
+console.log(date); */
+/* 11 */
+/* let arr = ['я', 'учу', 'javascript', '!'];
+console.log(arr.join('+')); */
+/* 12 */
+/* let str = 'я учу javascript!';
+let a = (str.slice(0, 1)).toUpperCase();
+let b = str.slice(1, str.length);
+console.log(a+b); */
+/* 13 */
+/* let con = '';
+let str = 'я учу javascript!';
+let arr = str.split(' ');
+for (i=0; i<arr.length; i++){
+    con += (arr[i].slice(0, 1)).toUpperCase()+arr[i].slice(1, arr[i].length)+' ';
+};
+console.log(con); */
+/* 14 */
+/* let str = 'var_test_text';
+let con = '';
+let arr = str.split('_');
+for (i=0; i<arr.length; i++){
+    con += (arr[i].slice(0, 1)).toUpperCase()+arr[i].slice(1, arr[i].length);
+};
+console.log(con); */
