@@ -573,3 +573,60 @@ for (i=0; i<arr.length; i++){
     con += (arr[i].slice(0, 1)).toUpperCase()+arr[i].slice(1, arr[i].length);
 };
 console.log(con); */
+/* Задачи на функции работы с массивами в JavaScript */
+/* 1 */
+/* let arr1 = [1, 2, 3];
+let arr2 = [4, 5, 6];
+let arr = arr1.concat(arr2);
+console.log(arr); */
+/* 2 */
+/* let arr = [1, 2, 3];
+console.log(arr.reverse()); */
+/* 3 */
+/* let arr = [1, 2, 3];
+arr.push(4, 5, 6);
+console.log(arr); */
+/* 4 */
+/* let arr = [1, 2, 3];
+arr.unshift(4, 5, 6);
+console.log(arr); */
+/* 5 */
+/* let arr = ['js', 'css', 'jq'];
+let elem = arr.shift();
+console.log(elem); */
+/* 6 */
+/* let arr = ['js', 'css', 'jq'];
+let elem = arr.pop();
+console.log(elem); */
+/* 7 */
+/* let arr = [1, 2, 3, 4, 5];
+let elem = arr.slice(0, 3);
+console.log(elem); */
+/* 8 */
+/* let arr = [1, 2, 3, 4, 5];
+let elem = arr.slice(2, 4);
+console.log(elem); */
+/* 9 */
+/* let arr = [1, 2, 3, 4, 5];
+arr.splice(1, 2);
+console.log(arr); */
+/* 10 */
+/* let arr = [1, 2, 3, 4, 5];
+let del = arr.splice(1, 3);
+console.log(del); */
+/* 11 */
+/* let arr = [1, 2, 3, 4, 5];
+arr.splice(3, 0, 'a', 'b', 'c');
+console.log(arr); */
+/* 12 */
+/* let arr = [1, 2, 3, 4, 5];
+arr.splice(1, 0, 'a', 'b');
+arr.splice(6, 0, 'c');
+arr.splice(9, 0, 'e');
+console.log(arr); */
+/* 13 */
+/* let arr = [3, 4, 1, 2, 7];
+console.log(arr.sort()); */
+/* 14 */
+/* let obj = {js:'test', jq: 'hello', css: 'world'};
+console.log(Object.keys(obj)); */
