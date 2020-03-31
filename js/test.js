@@ -209,9 +209,9 @@ if (test == false) {
     console.log('Неверно!')
 }  */
 /* 10 */
-let test = false;
+/* let test = false;
 if (test !== true) {
     console.log('Верно!')
 } else {
     console.log('Неверно!')
-}
+} */
