@@ -659,3 +659,18 @@ if (str.substr(-5, 5) == '.html'){
 } else {
     console.log('Данная строка не содержит в конце .html');
 } */
+/* Приемы работы с флагами на JavaScript */
+/* 1 */
+/* let arr = ['1', '2', '5', '3', '5'];
+flag = false;
+for (i = 0; i < arr.length; i++){
+    if (arr[i] == 5){
+        flag = true;
+        break;        
+    } else {
+        flag = false;
+    }
+}
+if (flag === true){
+    console.log('Да');
+} */
