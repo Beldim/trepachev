@@ -732,3 +732,48 @@ console.log(func(5, 3)); */
 }
 console.log(func(5));
 console.log(func(-5)); */
+/* Задачи на приемы работы с циклами на JavaScript */
+/* 1 */
+/* let arr = [];
+for (i = 0; i < 9; i++){
+    arr[i] = i+1;    
+}
+str = arr.join('');
+console.log(str); */
+/* let str = '';
+for (i = 1; i <= 9; i++){
+    str += i;
+}
+console.log(str); */
+/* 2 */
+/* let str = '';
+for (i = 9; i >= 1; i--){
+    str += i;
+}
+console.log(str); */
+/* 3 */
+/* let str = '-';
+for (i = 0; i <= 9; i++){
+    str = str + i + '-';
+}
+console.log(str); */
+/* 4 */
+/* let str = '';
+for (i = 0; i <= 20; i++){
+    str += 'x';
+    document.write(str+'<br>');
+} */
+/* 5 */
+/* let str = '';
+for (i = 0; i <= 9; i++){
+    for(j = 0; j <= i; j++){
+        document.write(i);
+    }
+    document.write('<br>');
+} */
+/* 6 */
+/* let str = '';
+for (i = 0; i < 5; i++){
+    str += 'xx';
+    document.write(str+'<br>');
+} */
