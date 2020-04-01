@@ -701,3 +701,34 @@ if (flag === true){
 } else {
     console.log('Нет!');
 } */
+/* Приемы работы с логическими значениями */
+/* 1 */
+/* function func(a, b){
+    if (a == b) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(func(3, 5));
+console.log(func(8, 8)); */
+/* 2 */
+/* function func(a, b){
+    if (a + b > 10) {
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(func(8, 5));
+console.log(func(5, 3)); */
+/* 3 */
+/* function func(a){
+    if (a <= 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(func(5));
+console.log(func(-5)); */
