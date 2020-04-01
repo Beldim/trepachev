@@ -674,3 +674,30 @@ for (i = 0; i < arr.length; i++){
 if (flag === true){
     console.log('Да');
 } */
+/* 2 */
+/* let flag = false;
+let num = 31;
+for (i = 2; i < num; i++){
+    if (num % i != 0) {
+        flag = true;
+    } else {
+        flag = false;
+    }
+}
+    console.log(flag); */
+/* 3 */
+/* let arr = ['1', '2', '3', '5', '5', '8', '5', '7'];
+let flag = false;
+for (i = 0; i < arr.length; i++){
+if (arr[i] == arr[i+1]){
+    flag = true;
+    break;
+   } else {
+    flag = false;
+    }
+}
+if (flag === true){
+    console.log('Да!');
+} else {
+    console.log('Нет!');
+} */
