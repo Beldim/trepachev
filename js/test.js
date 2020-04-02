@@ -796,3 +796,50 @@ arr[i] += (i+1);
     }
 }
 console.log(arr); */
+/* 3 */
+/* let arr = [];
+function arrayFill(value, length){
+    for(i = 0; i < length; i++){
+        arr[i] = value;
+    }
+    return arr;
+}
+console.log(arrayFill('asd', 5)); */
+/* 4 */
+/* let sum = 0;
+let value = 0;
+let arr = [1, 2, 3, 4, 5, 6];
+for (i = 0; i < arr.length; i++){
+    value+=arr[i];
+    if (value <= 10){
+        sum++;
+    }        
+}
+console.log(sum); */
+/* 5 */
+/* let arr = [1, 2, 3, 4, 5, 6, 7];
+let newarr = [];
+for(i = arr.length - 1; i >= 0; i--){
+    newarr.push(arr[i]);
+}
+console.log(newarr); */
+/* 6 */
+/* let arr = [[1, 2, 3], [4, 5], [6]];
+let sum = 0;
+for(i = 0; i < arr.length; i++){
+    for(j = 0; j < arr[i].length; j++){
+        sum+=arr[i][j];
+    }
+}
+console.log(sum); */
+/* 7 */
+/* let arr = [[[1, 2], [3, 4]], [[5, 6], [7, 8]]];
+let sum = 0;
+for(i = 0; i < arr.length; i++){
+    for(j = 0; j < arr[i].length; j++){
+        for(k = 0; k < arr[i][j].length; k++){
+            sum += arr[i][j][k];
+        }
+    }
+}
+console.log(sum); */
