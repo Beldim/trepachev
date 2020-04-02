@@ -777,3 +777,22 @@ for (i = 0; i < 5; i++){
     str += 'xx';
     document.write(str+'<br>');
 } */
+/* Задачи на приемы работы с массивами на JavaScript */
+/* 1 */
+/* let arr = [];
+for (i = 0; i < 3; i++){
+    arr[i] = '';
+    for (j = 0; j < i+1; j++){
+        arr[i] += 'x';
+    }  
+}
+console.log(arr); */
+/* 2 */
+/* let arr = [];
+for (i = 0; i < 3; i++){
+    arr[i] = '';
+    for (j = 0; j < i+1; j++){
+arr[i] += (i+1);
+    }
+}
+console.log(arr); */
