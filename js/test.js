@@ -843,3 +843,85 @@ for(i = 0; i < arr.length; i++){
     }
 }
 console.log(sum); */
+/* Правильное использование пользовательских функций */
+/* 1 */
+/* function isNumberInRange(num) {
+if (num > 0 && num < 10){
+    return true;
+} else {
+    return false;
+}
+}
+console.log(isNumberInRange(9)); */
+/* 2 */
+/* let arr = [1, 4, 0, -2, 5, -1];
+let newarr = [];
+for (i = 0; i < arr.length; i++){
+    isNumberInRange(arr[i]);
+}
+function isNumberInRange(num) {
+    if (num > 0 && num < 10){
+        newarr.push(arr[i]);
+    } 
+    }
+    console.log(newarr); */
+/* 3 */
+/* function getDigitsSum(digit){
+    let sum = 0;
+    let str = String(digit);
+    for (i = 0; i < str.length; i++){
+        sum += Number(str[i]);
+    }
+    return sum;
+}
+console.log(getDigitsSum(15)); */
+/* 4 */
+/* function getDigitsSum(digit){
+    let sum = 0;
+    let str = String(digit);
+    for (i = 0; i < str.length; i++){
+        sum += Number(str[i]);
+    }
+    return sum;
+}
+for(j = 0; j < 2020; j++){
+    if (getDigitsSum(j) == 13){
+        document.write(j+'<br>');
+    }
+} */
+/* 5 */
+/* function isEven(num){
+    if (num % 2 == 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+console.log(isEven(2)); */
+/* 6 */
+/* let arr = [1, 2, 5, 8, 4, 6, 7];
+let newarr = [];
+function isEven(num){
+    if (num % 2 == 0){
+        return true;
+    } else {
+        return false;
+    }
+}
+for (i = 0; i < arr.length; i++){
+    if (isEven(arr[i]) == true){
+        newarr.push(arr[i]);
+    }
+}
+console.log(newarr); */
+/* 7 */
+/* let arr = [];
+function getDivisors(num){
+    for (i = 0; i <= num; i++){
+        if (num % i == 0){
+            arr.push(i);
+        }
+    }
+    return arr;
+}
+console.log(getDivisors(1000)); */
