@@ -636,7 +636,7 @@ console.log(Object.keys(obj)); */
 let arr = str.split('');
 arr[0] = arr[0].toUpperCase();
 console.log(arr.join('')); */
-/* let str = 'javascript';
+/*  let str = 'javascript';
 str = str[0].toUpperCase() + str.substr(1);
 console.log(str); */
 /* 2 */
@@ -925,3 +925,52 @@ function getDivisors(num){
     return arr;
 }
 console.log(getDivisors(1000)); */
+/* Практика на работу с пользовательскими функциями */
+/* 1 */
+/* function ucfirst(str){
+    let result = ' ';
+    newstr = str.split(' ');  
+    for(i = 0; i < newstr.length; i++){
+        let toZagl = newstr[i].substring(0, 1).toUpperCase();
+        let other = newstr[i].substring(1, newstr[i].length);
+        result += toZagl + other + ' ';        
+    };
+    return result; 
+};
+console.log(ucfirst('я учу javascript')); */
+/* 2 */
+/* function withoutDivision(str){
+    let newstr = '';
+    str2 = str.split('_');
+    for(i = 0; i < str2.length; i++){
+        if (i != 0){
+        newstr += str2[i][0].toUpperCase() + str2[i].substring(1);
+        } else {
+        newstr += str2[i];
+        }
+    }
+    return newstr;
+}
+console.log(withoutDivision('var_text_hello')); */
+/* 3 */
+/* let arr = ['Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс'];
+function inArray(str, arr){
+    for(i = 0; i < arr.length; i++){
+        if (str == arr[i]){
+            return true;
+        }            
+        }
+        return false;
+    }
+console.log(inArray('Сб', arr)); */
+/* 4 */
+/* let result = '';
+function sortNum(num){
+for(i = 0; i < num.length; i++){
+    if (num[i] % 2 != 0){
+        result += num[i+1]+num[i];
+    } 
+}
+return result;
+}
+console.log(sortNum('123456')); */
