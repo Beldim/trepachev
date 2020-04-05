@@ -974,3 +974,27 @@ for(i = 0; i < num.length; i++){
 return result;
 }
 console.log(sortNum('123456')); */
+/* Продвинутая работа с пользовательскими функциями в JavaScript */
+/* 1 */
+/* let arr = [1, 2, 3, 4, 5, 6];
+eNum(arr);
+function eNum(arr){
+    console.log(arr.pop());
+    if (arr.length != 0){
+        eNum(arr);
+    }
+} */
+/* 2 */
+/* function sumDigitsRecursion(num) {
+    var arr = String(num).split("");
+    var sum = 0;
+    for (var i = 0; i < arr.length; i++) {
+    sum += Number(arr[i]);
+    }
+    if (sum > 9) {
+    sumDigitsRecursion(sum);
+    } else {
+    document.write(sum + "<br>");
+    }
+    }    
+    sumDigitsRecursion(1234568888997); */
